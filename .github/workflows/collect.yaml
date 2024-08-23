@@ -1,8 +1,8 @@
 name: Collect
 on:
-  # executed at 3:00 a.m. every morning
+  # executed at 00:00 a.m. every morning
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
